@@ -15,9 +15,9 @@ A simple, interactive Number Guessing Game built in Java. This project demonstra
 This application generates a random number between 1 and 100, and the player must guess it within a limited number of attempts.
 The game tracks:
 
-Number of attempts
-Score per round
-Total score across multiple rounds
+> Number of attempts
+> Score per round
+> Total score across multiple rounds
 
 
 ## 🚀 Features
@@ -33,40 +33,39 @@ Total score across multiple rounds
 
 ## 🎮 How to Play
 
-The game will generate a random number between 1 and 100.
-You get 10 attempts to guess the number.
-After each guess:
+1. The game will generate a random number between 1 and 100.
+2. You get 10 attempts to guess the number.
+3. After each guess:
 
-You’ll receive feedback (too high / too low).
-
-
-If you guess correctly:
-
-You earn a score (higher score for fewer attempts).
+     > You’ll receive feedback (too high / too low).
 
 
-After the round ends:
+4. If you guess correctly:
+   
+      > You earn a score (higher score for fewer attempts).
+      
+5. After the round ends:
 
-You can choose to play again.
+      > You can choose to play again.
 
 
 
 
 ## 🧠 Scoring System
 
-Base score: 100 points
-Penalty: 10 points per extra attempt
-Minimum score for a win: 10 points
-If you lose: 0 points
+- Base score: 100 points
+- Penalty: 10 points per extra attempt
+- Minimum score for a win: 10 points
+- If you lose: 0 points
 
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-Java (JDK 8 or higher)
-Standard Libraries:
+- Java (JDK 8 or higher)
+  - Standard Libraries:
 
-java.util.Random
-java.util.Scanner
+   > java.util.Random
+   > java.util.Scanner
 
 
 
@@ -78,44 +77,44 @@ README.md
 
 ## ▶️ How to Run
 1. Compile the program
-Shelljavac DecodeLabs_Java_P1.javaShow more lines
+ >javac DecodeLabs_Java_P1.java
 2. Run the program
-Shelljava DecodeLabs_Java_P1Show more lines
+ >java DecodeLabs_Java_P1
 
 ## 🧩 Key Methods
 
 
-playRound()
-Handles one complete game round including guessing and score calculation. [aktuacin-m...epoint.com]
+> playRound()
+Handles one complete game round including guessing and score calculation. 
 
 
-askPlayAgain()
-Prompts the user to continue or exit. [aktuacin-m...epoint.com]
+> askPlayAgain()
+Prompts the user to continue or exit.
 
 
-printBanner()
-Displays the welcome message. [aktuacin-m...epoint.com]
+> printBanner()
+Displays the welcome message.
 
 
-printSummary()
-Shows total rounds and score at the end. [aktuacin-m...epoint.com]
+> printSummary()
+Shows total rounds and score at the end. 
 
 
 
 ## 🎯 Learning Outcomes
 This project helps you understand:
 
-Control flow (loops, if-else)
-User interaction in console applications
-Game logic design
-Code organization using methods
-Basic scoring algorithms
+> Control flow (loops, if-else)
+> User interaction in console applications
+> Game logic design
+> Code organization using methods
+> Basic scoring algorithms
 
 
 ## 👨‍💻 Author
 
-DecodeLabs Intern
-Batch 2026
+> DecodeLabs Intern
+> Batch 2026
 
 
 ## 📜 License
