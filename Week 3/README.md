@@ -68,42 +68,42 @@ Current Balance: ₹1000.0
 
 ## 🔐 Key Concepts Used
 
-Encapsulation
+- Encapsulation
 
-Private variable balance with public methods
-
-
-Classes & Objects
-
-BankAccount and ATM classes
+    *  Private variable balance with public methods
 
 
-Methods
+- Classes & Objects
 
-deposit(), withdraw(), getBalance()
+    *  BankAccount and ATM classes
 
 
-Input Validation
+- Methods
 
-Prevents invalid or excessive transactions
+    * deposit(), withdraw(), getBalance()
+
+
+- Input Validation
+
+    * Prevents invalid or excessive transactions
 
 
 
 
 ## ⚠️ Assumptions
 
-Initial balance is set to ₹1000
-No PIN authentication (basic version)
-Single user system (no multiple accounts)
+- Initial balance is set to ₹1000
+- No PIN authentication (basic version)
+- Single user system (no multiple accounts)
 
 
 ## 🔮 Future Enhancements
 
-✅ Add PIN authentication
-✅ Add transaction history
-✅ Convert to GUI (Java Swing / JavaFX)
-✅ Support multiple user accounts
-✅ Database integration
+- ✅ Add PIN authentication
+- ✅ Add transaction history
+- ✅ Convert to GUI (Java Swing / JavaFX)
+- ✅ Support multiple user accounts
+- ✅ Database integration
 
 
 ## 🙌 Author
